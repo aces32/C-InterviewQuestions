@@ -1,0 +1,432 @@
+
+Search
+Write
+
+Buarisulaimon
+Working with LLMs in .NET using Microsoft.Extensions.AI
+Working with LLMs in .NET using Microsoft.Extensions.AI
+Milan Jovanović
+Milan Jovanović
+
+·
+Follow
+
+6 min read
+·
+Jan 11, 2025
+219
+
+
+4
+
+
+
+
+
+I’ve been experimenting with different approaches to integrating LLMs into .NET apps, and I want to share what I’ve learned about using Microsoft.Extensions.AI.
+
+Large Language Models (LLMs) have revolutionized how we approach AI-powered applications. While many developers are familiar with cloud-based solutions like OpenAI’s GPT models, running LLMs locally has become increasingly accessible thanks to projects like Ollama.
+
+In this article, we’ll explore how to use LLMs in .NET applications using Microsoft.Extensions.AI, a powerful abstraction that extends the Semantic Kernel SDK.
+
+Understanding the Building Blocks
+Large Language Models (LLMs)
+LLMs are deep learning models trained on vast amounts of data, capable of understanding and generating human-like text. These models can perform various tasks such as text completion, summarization, classification, and engaging in conversation. While traditionally accessed through cloud APIs, recent advances have made it possible to run them locally on standard hardware.
+
+
+Source: Weights & Biases
+Ollama
+Ollama is an open-source project that simplifies running LLMs locally. It provides a Docker container that can run various open-source models like Llama, making it easy to experiment with AI without depending on cloud services. Ollama handles model management and optimization and provides a simple API for interactions.
+
+Microsoft.Extensions.AI
+Microsoft.Extensions.AI is a library that provides a unified interface for working with LLMs in .NET applications. Built on top of Microsoft’s Semantic Kernel, it abstracts away the complexity of different LLM implementations, allowing developers to switch between providers (like Ollama, Azure, or OpenAI) without changing application code.
+
+Getting Started
+Before diving into the examples, here’s what you need to run LLMs locally:
+
+Docker running on your machine
+Ollama container running with the llama3 model:
+# Pull the Ollama container
+docker run --gpus all -d -v ollama_data:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+
+# Pull the llama3 model
+docker exec -it ollama ollama pull llama3
+3. A few NuGet packages (I built this using a .NET 9 console application):
+
+Install-Package Microsoft.Extensions.AI # The base AI library
+Install-Package Microsoft.Extensions.AI.Ollama # Ollama provider implementation
+Install-Package Microsoft.Extensions.Hosting # For building the DI container
+Simple Chat Completion
+Let’s start with a basic example of chat completion. Here’s the minimal setup:
+
+var builder = Host.CreateApplicationBuilder();
+
+builder.Services.AddChatClient(new OllamaChatClient(new Uri("http://localhost:11434"), "llama3"));
+
+var app = builder.Build();
+
+var chatClient = app.Services.GetRequiredService<IChatClient>();
+
+var chatCompletion = await chatClient.CompleteAsync("What is .NET? Reply in 50 words max.");
+
+Console.WriteLine(chatCompletion.Message.Text);
+Nothing fancy here — we’re just setting up dependency injection and asking a simple question. If you’re used to using raw API calls, you’ll notice how clean this feels.
+
+The AddChatClient extension method registers the chat client with the DI container. This allows you to inject IChatClient into your services and interact with LLMs using a simple API. The implementation uses the OllamaChatClient to communicate with the Ollama container running locally.
+
+Implementing Chat with History
+Building on the previous example, we can create an interactive chat that maintains conversation history. This is useful for context-aware interactions and real-time chat applications. All we need is a List<ChatMessage to store the chat history:
+
+var chatHistory = new List<ChatMessage>();
+
+while (true)
+{
+   Console.WriteLine("Enter your prompt:");
+   var userPrompt = Console.ReadLine();
+   chatHistory.Add(new ChatMessage(ChatRole.User, userPrompt));
+
+   Console.WriteLine("Response from AI:");
+   var chatResponse = "";
+   await foreach (var item in chatClient.CompleteStreamingAsync(chatHistory))
+   {
+       // We're streaming the response, so we get each message as it arrives
+       Console.Write(item.Text);
+       chatResponse += item.Text;
+   }
+   chatHistory.Add(new ChatMessage(ChatRole.Assistant, chatResponse));
+   Console.WriteLine();
+}
+The cool part here is the streaming response — you get that nice, gradual text appearance like in ChatGPT. We’re also maintaining chat history, which lets the model understand context from previous messages, making conversations feel more natural.
+
+Getting Practical: Article Summarization
+Let’s try something more useful — automatically summarizing articles. I’ve been using this to process blog posts:
+
+var posts = Directory.GetFiles("posts").Take(5).ToArray();
+foreach (var post in posts)
+{
+   string prompt = $$"""
+         You will receive an input text and the desired output format.
+         You need to analyze the text and produce the desired output format.
+         You not allow to change code, text, or other references.
+
+         # Desired response
+
+         Only provide a RFC8259 compliant JSON response following this format without deviation.
+
+         {
+            "title": "Title pulled from the front matter section",
+            "summary": "Summarize the article in no more than 100 words"
+         }
+
+         # Article content:
+
+         {{File.ReadAllText(post)}}
+         """;
+
+   var chatCompletion = await chatClient.CompleteAsync(prompt);
+   Console.WriteLine(chatCompletion.Message.Text);
+   Console.WriteLine(Environment.NewLine);
+}
+Pro tip: Being specific about the output format (like requesting RFC8259 compliant JSON) helps get consistent results. I learned this the hard way after dealing with occasionally malformed responses!
+
+Taking It Further: Smart Categorization
+Here’s where it gets really interesting — we can get strongly typed responses directly from our LLM:
+
+class PostCategory
+{
+    public string Title { get; set; } = string.Empty;
+    public string[] Tags { get; set; } = [];
+}
+
+var posts = Directory.GetFiles("posts").Take(5).ToArray();
+foreach (var post in posts)
+{
+    string prompt = $$"""
+          You will receive an input text and the desired output format.
+          You need to analyze the text and produce the desired output format.
+          You not allow to change code, text, or other references.
+
+          # Desired response
+
+          Only provide a RFC8259 compliant JSON response following this format without deviation.
+
+          {
+             "title": "Title pulled from the front matter section",
+             "tags": "Array of tags based on analyzing the article content. Tags should be lowercase."
+          }
+
+          # Article content:
+
+          {{File.ReadAllText(post)}}
+          """;
+
+    var chatCompletion = await chatClient.CompleteAsync<PostCategory>(prompt);
+
+    Console.WriteLine(
+      $"{chatCompletion.Result.Title}. Tags: {string.Join(",",chatCompletion.Result.Tags)}");
+}
+The strongly typed approach provides compile-time safety and better IDE support, making it easier to maintain and refactor code that interacts with LLM responses.
+
+Flexibility with Different LLM Providers
+One of the key advantages of Microsoft.Extensions.AI is support for different providers. While our examples use Ollama, you can easily switch to other providers:
+
+// Using Azure OpenAI
+builder.Services.AddChatClient(new AzureOpenAIClient(
+        new Uri("AZURE_OPENAI_ENDPOINT"),
+        new DefaultAzureCredential())
+            .AsChatClient());
+
+// Using OpenAI
+builder.Services.AddChatClient(new OpenAIClient("OPENAI_API_KEY").AsChatClient());
+This flexibility allows you to:
+
+Start development with local models
+Move to production with cloud providers
+Switch between providers without changing application code
+Mix different providers for different use cases (categorization, image recognition, etc.)
+Takeaway
+Microsoft.Extensions.AI makes it very simple to integrate LLMs into .NET applications. Whether you're building a chat interface, processing documents, or adding AI-powered features to your application, the library provides a clean, consistent API that works across different LLM providers.
+
+I’ve only scratched the surface here. Since integrating this into my projects, I’ve found countless uses:
+
+Automated content moderation for user submissions
+Automated support ticket categorization
+Content summarization for newsletters
+I’m also planning a small side project that will use LLMs to process images from a camera feed. The idea is to detect anything unusual and trigger alerts in real-time.
+
+What are you planning to build with this? I’d love to hear about your projects and experiences. The AI space is moving fast, but with tools like Microsoft.Extensions.AI, we can focus on building features rather than wrestling with infrastructure.
+
+Good luck out there, and see you next week.
+
+Originally published at https://www.milanjovanovic.tech on January 11, 2025.
+
+Whenever you’re ready, there are 4 ways I can help you:
+
+(COMING SOON) REST APIs in ASP.NET Core: You will learn how to build production-ready REST APIs using the latest ASP.NET Core features and best practices. It includes a fully functional UI application that we’ll integrate with the REST API. Join the waitlist!
+Pragmatic Clean Architecture: Join 3,700+ students in this comprehensive course that will teach you the system I use to ship production-ready applications using Clean Architecture. Learn how to apply the best practices of modern software architecture.
+Modular Monolith Architecture: Join 1,600+ engineers in this in-depth course that will transform the way you build modern systems. You will learn the best practices for applying the Modular Monolith architecture in a real-world scenario.
+Patreon Community: Join a community of 1,000+ engineers and software architects. You will also unlock access to the source code I use in my YouTube videos, early access to future videos, and exclusive discounts for my courses.
+Promote yourself to 61,000+ subscribers by sponsoring this newsletter.
+AI
+Llm
+Ollama
+Dotnet
+Large Language Models
+219
+
+
+4
+
+
+
+
+Milan Jovanović
+Written by Milan Jovanović
+4.4K Followers
+·
+7 Following
+Author of The .NET Weekly newsletter: https://www.milanjovanovic.tech/
+
+Follow
+
+Responses (4)
+Buarisulaimon
+Buarisulaimon
+﻿
+
+Cancel
+Respond
+Respond
+
+Also publish to my profile
+
+Tommycore
+Tommycore
+
+he/him
+12 hours ago
+
+
+This article was the "Hello World!" equivalent to practical AI that I needed to get started. Thank you! As a short addendum:
+1. For anyone else wondering why the Microsoft.Extensions.AI package doesn't show up: It's only available as preview (05 Feb…more
+Reply
+
+Simslal
+Simslal
+
+2 days ago
+
+
+T
+Reply
+
+Alfarsi
+Alfarsi
+
+Jan 21
+
+
+web scraping and analysis the text with llm
+Reply
+
+See all responses
+More from Milan Jovanović
+What Rewriting a 40-Year-Old Project Taught Me About Software Development
+Milan Jovanović
+Milan Jovanović
+
+What Rewriting a 40-Year-Old Project Taught Me About Software Development
+“Your task is to rewrite this system. It powers our entire operation. Oh, and it’s written in APL.”
+Dec 28, 2024
+867
+24
+
+
+Scaling Monoliths: A Practical Guide for Growing Systems
+Milan Jovanović
+Milan Jovanović
+
+Scaling Monoliths: A Practical Guide for Growing Systems
+Monoliths get a bad rap in our industry. We’re told they’re legacy, that they don’t scale, and that we need microservices to succeed. After…
+Jan 18
+48
+
+
+Unit Testing Clean Architecture Use Cases
+Milan Jovanović
+Milan Jovanović
+
+Unit Testing Clean Architecture Use Cases
+Writing tests is a crucial part of my daily work. Over the years, I’ve learned that good tests can make or break a project.
+Jan 4
+25
+1
+
+
+Implementing AES Encryption With C#
+Milan Jovanović
+Milan Jovanović
+
+Implementing AES Encryption With C#
+A single exposed API key or database password can compromise your entire infrastructure. Yet many developers still store sensitive data…
+Jan 25
+31
+1
+
+
+See all from Milan Jovanović
+Recommended from Medium
+No “NullReferenceException” in .NET Anymore! Mark Your Nullable Reference Type Warnings As Errors
+Syed Qutub Uddin Khan
+Syed Qutub Uddin Khan
+
+No “NullReferenceException” in .NET Anymore! Mark Your Nullable Reference Type Warnings As Errors
+As software engineers, we tend to make our easy lives more difficult just by overcomplicating simple stuff to remain entertained. We love…
+Dec 29, 2024
+15
+
+
+Managing the Entity Framework Core DbContext in .NET: Using Statement vs Dependency Injection
+Sasanga Edirisinghe
+Sasanga Edirisinghe
+
+Managing the Entity Framework Core DbContext in .NET: Using Statement vs Dependency Injection
+The Entity Framework (EF) DbContext is a central piece in .NET applications that interact with relational databases. Its management plays…
+Jan 28
+15
+
+
+Lists
+
+
+
+Natural Language Processing
+1918 stories
+·
+1573 saves
+
+
+
+Generative AI Recommended Reading
+52 stories
+·
+1634 saves
+
+
+
+What is ChatGPT?
+9 stories
+·
+501 saves
+Image by vectorjuice on FreePik
+
+
+The New Chatbots: ChatGPT, Bard, and Beyond
+12 stories
+·
+547 saves
+Boost .NET Logging Performance 10x with Minimal Effort
+Sviatoslav Bychkov
+Sviatoslav Bychkov
+
+Boost .NET Logging Performance 10x with Minimal Effort
+We’ll look at common pitfalls, how to avoid them, and how to significantly boost logging performance with about zero effort.
+Jan 28
+52
+3
+
+
+Implementing AES Encryption With C#
+Milan Jovanović
+Milan Jovanović
+
+Implementing AES Encryption With C#
+A single exposed API key or database password can compromise your entire infrastructure. Yet many developers still store sensitive data…
+Jan 25
+31
+1
+
+
+Building a Configuration Management System in Multi-Tenant architecture with .NET
+Ercan Erdoğan
+Ercan Erdoğan
+
+Building a Configuration Management System in Multi-Tenant architecture with .NET
+In modern applications, particularly in multi-tenant environments, managing and distributing configurations efficiently can be a complex…
+Dec 10, 2024
+37
+1
+
+
+Why You Should Avoid “Switch-Statement” and Use Polymorphism Instead
+Hossein Kohzadi
+Hossein Kohzadi
+
+Why You Should Avoid “Switch-Statement” and Use Polymorphism Instead
+I received this wonderful comment in my recent PR:
+Jan 28
+105
+9
+
+
+See more recommendations
+Help
+
+Status
+
+About
+
+Careers
+
+Press
+
+Blog
+
+Privacy
+
+Terms
+
+Text to speech
+
+Teams
+
