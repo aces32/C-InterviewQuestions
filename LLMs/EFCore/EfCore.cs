@@ -18,6 +18,14 @@
                 You don’t get all the books immediately.
                 You wait until they actually open the book before fetching it.
                 If they never read it, you never fetch it.
+
+               Definition:
+                Lazy loading loads related entities only when they are accessed for the first time.
+                
+                Use Case:
+                
+                When related data is not always needed.
+                Saves memory by only loading what is required.
                 ✅ Best For:
                 ✔ Saving memory – You don’t load unnecessary books.
                 ✔ Performance optimization – Only loads what’s actually needed.
@@ -28,10 +36,19 @@
                         📌 What happens?
                 
                 When you fetch a Library, Books are NOT loaded immediately.
-                Books are only loaded when you actually access the Books property.
+                    Books are only loaded when you actually access the Books property.
+                     var customer = dbContext.Customers.Find(1);
+                     var orders = customer.Orders;  // Orders are loaded **only now**
 
          2️⃣ Eager Loading (Fetch Everything Upfront)
                 Now imagine when someone enters the library, you immediately bring all the books to them, even if they only read one.
+            Definition:
+                Eager loading loads related entities immediately along with the main entity in a single query.
+                
+                Use Case:
+                
+                When you always need related data to avoid multiple database queries.
+                Reduces the number of queries (N+1 problem)
                 
                 This ensures all books are ready if needed.
                 But if the customer only reads one book, the extra books were a waste of effort.
