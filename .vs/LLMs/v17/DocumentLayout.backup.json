@@ -3,100 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\buari\\source\\repos\\LLMs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\extensionmethod\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\extensionmethod\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\photoprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\photoprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\goodcode\\reportsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\goodcode\\reportsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\goodcode\\reportprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\goodcode\\reportprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\goodcode\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\goodcode\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\badcode\\reportclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\badcode\\reportclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\videoencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\videoencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\idiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\idiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\videoeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\videoeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\goodcode\\regulardiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\goodcode\\regulardiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\chathistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\chathistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\photofilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\photofilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\access modifiers\\accessmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\access modifiers\\accessmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\constvsreadonly\\constvsreadonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\constvsreadonly\\constvsreadonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\binarysearch\\binarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\binarysearch\\binarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\discountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\discountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\encapsulationvsabstraction\\encapsulationvsabstraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\encapsulationvsabstraction\\encapsulationvsabstraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\signedandunsignedinteger\\signedandunsignedinteger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\signedandunsignedinteger\\signedandunsignedinteger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\mutability\\mutability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\mutability\\mutability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\badcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\badcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\structclassrecords\\structclassrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\structclassrecords\\structclassrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\penguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\penguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\flyingbird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\flyingbird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\signedandunsignedinteger\\signedandunsignedinteger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\signedandunsignedinteger\\signedandunsignedinteger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\sparrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\sparrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\goodcode\\supervipdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\goodcode\\supervipdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\goodcode\\vipdiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\goodcode\\vipdiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\ienumquelistcollec\\ienumquelistcollec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\ienumquelistcollec\\ienumquelistcollec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\extensionmethod\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\extensionmethod\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\dependencyinversion\\goodcode\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,6 +99,98 @@
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\dependencyinversion\\badcode\\lightbulb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\delegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\constvsreadonly\\constvsreadonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\constvsreadonly\\constvsreadonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\access modifiers\\accessmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\access modifiers\\accessmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\threadsafety\\threadsafety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\threadsafety\\threadsafety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\photofilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\photofilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\badcode\\baddiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\badcode\\baddiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\efcore\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\efcore\\efcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\binarysearch\\binarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\binarysearch\\binarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\videoeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\videoeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\videoencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\videoencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\delegatesandevents\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\delegatesandevents\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\photoprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\photoprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\chathistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\chathistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\badcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\badcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\penguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\penguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\flyingbird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\flyingbird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\liskovsubstitution\\goodcode\\sparrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\liskovsubstitution\\goodcode\\sparrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\interfacesegregation\\goodcode\\basicprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\interfacesegregation\\goodcode\\basicprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -139,56 +207,8 @@
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\interfacesegregation\\badcode\\imachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\discountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\discountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\goodcode\\vipdiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\goodcode\\vipdiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\goodcode\\supervipdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\goodcode\\supervipdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\goodcode\\regulardiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\goodcode\\regulardiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\idiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\idiscountstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\goodcode\\reportsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\goodcode\\reportsaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\goodcode\\reportprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\goodcode\\reportprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\goodcode\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\goodcode\\reportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\singleresponsibility\\badcode\\reportclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\singleresponsibility\\badcode\\reportclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\llms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\llms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|c:\\users\\buari\\source\\repos\\llms\\llms\\openandclosedprinciple\\badcode\\baddiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D48116E-61FC-475A-84AA-F750160502D8}|LLMs\\LLMs.csproj|solutionrelative:llms\\openandclosedprinciple\\badcode\\baddiscountcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -198,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,33 +230,410 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiscountCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
+              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
+              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T00:30:20.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegularDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
+              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
+              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:50:52.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDiscountStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
+              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
+              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:48:52.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportClass.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
+              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
+              "RelativeToolTip": "LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:06:44.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
+              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
+              "RelativeToolTip": "LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:12:55.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportPrinter.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
+              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
+              "RelativeToolTip": "LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:12:14.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportSaver.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
+              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
+              "RelativeToolTip": "LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:12:53.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Program.cs",
+              "RelativeDocumentMoniker": "LLMs\\Program.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Program.cs",
+              "RelativeToolTip": "LLMs\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:19:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EncapsulationVsAbstraction.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
+              "RelativeDocumentMoniker": "LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
+              "RelativeToolTip": "LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwCgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:57:39.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mutability.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Mutability\\Mutability.cs",
+              "RelativeDocumentMoniker": "LLMs\\Mutability\\Mutability.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Mutability\\Mutability.cs",
+              "RelativeToolTip": "LLMs\\Mutability\\Mutability.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:02:51.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\ReportService.cs",
+              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\ReportService.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\ReportService.cs",
+              "RelativeToolTip": "LLMs\\SingleResponsibility\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:14:33.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StructClassRecords.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\StructClassRecords\\StructClassRecords.cs",
+              "RelativeDocumentMoniker": "LLMs\\StructClassRecords\\StructClassRecords.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\StructClassRecords\\StructClassRecords.cs",
+              "RelativeToolTip": "LLMs\\StructClassRecords\\StructClassRecords.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAkwC8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T00:44:32.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\IReportService.cs",
+              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\IReportService.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\IReportService.cs",
+              "RelativeToolTip": "LLMs\\SingleResponsibility\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:16:49.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignedAndUnSignedInteger.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
+              "RelativeDocumentMoniker": "LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
+              "RelativeToolTip": "LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:57:21.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SuperVIPDiscount.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
+              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
+              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:21:04.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VipDiscountCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
+              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
+              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:21:04.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IEnumQueListCollec.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\IEnumQueListCollec\\IEnumQueListCollec.cs",
+              "RelativeDocumentMoniker": "LLMs\\IEnumQueListCollec\\IEnumQueListCollec.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\IEnumQueListCollec\\IEnumQueListCollec.cs",
+              "RelativeToolTip": "LLMs\\IEnumQueListCollec\\IEnumQueListCollec.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwFcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:43:33.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "StringExtensions.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ExtensionMethod\\StringExtensions.cs",
               "RelativeDocumentMoniker": "LLMs\\ExtensionMethod\\StringExtensions.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ExtensionMethod\\StringExtensions.cs*",
-              "RelativeToolTip": "LLMs\\ExtensionMethod\\StringExtensions.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ExtensionMethod\\StringExtensions.cs",
+              "RelativeToolTip": "LLMs\\ExtensionMethod\\StringExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T16:26:47.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VideoEventArgs.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
-              "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
-              "RelativeToolTip": "LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "Switch.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
+              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T16:09:31.1Z",
+              "WhenOpened": "2025-02-07T12:47:14.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
+              "Title": "LightBulb.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
+              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:45:46.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IDevice.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
+              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:47:11.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Fan.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
+              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:47:10.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Switch.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\Switch.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\BadCode\\Switch.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\Switch.cs",
+              "RelativeToolTip": "LLMs\\DependencyInversion\\BadCode\\Switch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:43:13.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LightBulb.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
+              "RelativeToolTip": "LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:42:34.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "LLMs\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeToolTip": "LLMs\\DependencyInjection\\DependencyInjection.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:21:41.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delegates.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Delegates.cs",
+              "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\Delegates.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Delegates.cs",
+              "RelativeToolTip": "LLMs\\DelegatesAndEvents\\Delegates.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIAywCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T21:08:05.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Events.cs",
+              "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\Events.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Events.cs",
+              "RelativeToolTip": "LLMs\\DelegatesAndEvents\\Events.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T21:20:41.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ConstVsReadOnly.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
+              "RelativeDocumentMoniker": "LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
+              "RelativeToolTip": "LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:21:41.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccessModifier.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Access Modifiers\\AccessModifier.cs",
+              "RelativeDocumentMoniker": "LLMs\\Access Modifiers\\AccessModifier.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Access Modifiers\\AccessModifier.cs",
+              "RelativeToolTip": "LLMs\\Access Modifiers\\AccessModifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:34:58.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ThreadSafety.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ThreadSafety\\ThreadSafety.cs",
+              "RelativeDocumentMoniker": "LLMs\\ThreadSafety\\ThreadSafety.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ThreadSafety\\ThreadSafety.cs",
+              "RelativeToolTip": "LLMs\\ThreadSafety\\ThreadSafety.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T00:35:17.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EfCore.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\EFCore\\EfCore.cs",
+              "RelativeDocumentMoniker": "LLMs\\EFCore\\EfCore.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\EFCore\\EfCore.cs",
+              "RelativeToolTip": "LLMs\\EFCore\\EfCore.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwCsAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:06:24.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "MessageService.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\MessageService.cs",
               "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\MessageService.cs",
@@ -244,12 +641,23 @@
               "RelativeToolTip": "LLMs\\DelegatesAndEvents\\MessageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T15:53:40.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T15:53:40.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
+              "Title": "VideoEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
+              "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
+              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
+              "RelativeToolTip": "LLMs\\DelegatesAndEvents\\VideoEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:09:31.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "MailService.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\MailService.cs",
               "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\MailService.cs",
@@ -257,25 +665,23 @@
               "RelativeToolTip": "LLMs\\DelegatesAndEvents\\MailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T15:45:18.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T15:45:18.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 36,
               "Title": "VideoEncoder.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\VideoEncoder.cs",
               "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\VideoEncoder.cs",
               "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\VideoEncoder.cs",
               "RelativeToolTip": "LLMs\\DelegatesAndEvents\\VideoEncoder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T15:00:33.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T15:00:33.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 37,
               "Title": "Video.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Video.cs",
               "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\Video.cs",
@@ -283,12 +689,11 @@
               "RelativeToolTip": "LLMs\\DelegatesAndEvents\\Video.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T14:59:15.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T14:59:15.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
               "Title": "Photo.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Photo.cs",
               "RelativeDocumentMoniker": "LLMs\\Photo.cs",
@@ -301,20 +706,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
               "Title": "PhotoFilters.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\PhotoFilters.cs",
               "RelativeDocumentMoniker": "LLMs\\PhotoFilters.cs",
               "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\PhotoFilters.cs",
               "RelativeToolTip": "LLMs\\PhotoFilters.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T12:42:21.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 40,
               "Title": "PhotoProcessor.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\PhotoProcessor.cs",
               "RelativeDocumentMoniker": "LLMs\\PhotoProcessor.cs",
@@ -322,111 +727,24 @@
               "RelativeToolTip": "LLMs\\PhotoProcessor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:40:52.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:40:52.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Events.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Events.cs",
-              "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\Events.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Events.cs",
-              "RelativeToolTip": "LLMs\\DelegatesAndEvents\\Events.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:20:41.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Delegates.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Delegates.cs",
-              "RelativeDocumentMoniker": "LLMs\\DelegatesAndEvents\\Delegates.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DelegatesAndEvents\\Delegates.cs",
-              "RelativeToolTip": "LLMs\\DelegatesAndEvents\\Delegates.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:08:05.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 34,
               "Title": "BinarySearch.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\BinarySearch\\BinarySearch.cs",
               "RelativeDocumentMoniker": "LLMs\\BinarySearch\\BinarySearch.cs",
               "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\BinarySearch\\BinarySearch.cs",
               "RelativeToolTip": "LLMs\\BinarySearch\\BinarySearch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:23:26.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EncapsulationVsAbstraction.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
-              "RelativeDocumentMoniker": "LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
-              "RelativeToolTip": "LLMs\\EncapsulationVsAbstraction\\EncapsulationVsAbstraction.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T19:57:39.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SignedAndUnSignedInteger.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
-              "RelativeDocumentMoniker": "LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
-              "RelativeToolTip": "LLMs\\SignedAndUnSignedInteger\\SignedAndUnSignedInteger.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T17:57:21.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccessModifier.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Access Modifiers\\AccessModifier.cs",
-              "RelativeDocumentMoniker": "LLMs\\Access Modifiers\\AccessModifier.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Access Modifiers\\AccessModifier.cs",
-              "RelativeToolTip": "LLMs\\Access Modifiers\\AccessModifier.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAYwA4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T14:34:58.355Z",
+              "WhenOpened": "2025-02-07T20:23:26.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Mutability.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Mutability\\Mutability.cs",
-              "RelativeDocumentMoniker": "LLMs\\Mutability\\Mutability.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Mutability\\Mutability.cs",
-              "RelativeToolTip": "LLMs\\Mutability\\Mutability.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T14:02:51.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ConstVsReadOnly.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
-              "RelativeDocumentMoniker": "LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
-              "RelativeToolTip": "LLMs\\ConstvsReadOnly\\ConstVsReadOnly.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:21:41.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 46,
               "Title": "Sparrow.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\LiskovSubstitution\\GoodCode\\Sparrow.cs",
               "RelativeDocumentMoniker": "LLMs\\LiskovSubstitution\\GoodCode\\Sparrow.cs",
@@ -438,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 44,
               "Title": "Penguin.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\LiskovSubstitution\\GoodCode\\Penguin.cs",
               "RelativeDocumentMoniker": "LLMs\\LiskovSubstitution\\GoodCode\\Penguin.cs",
@@ -450,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 45,
               "Title": "FlyingBird.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\LiskovSubstitution\\GoodCode\\FlyingBird.cs",
               "RelativeDocumentMoniker": "LLMs\\LiskovSubstitution\\GoodCode\\FlyingBird.cs",
@@ -462,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 43,
               "Title": "Bird.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\LiskovSubstitution\\GoodCode\\Bird.cs",
               "RelativeDocumentMoniker": "LLMs\\LiskovSubstitution\\GoodCode\\Bird.cs",
@@ -474,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 42,
               "Title": "Bird.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\LiskovSubstitution\\BadCode\\Bird.cs",
               "RelativeDocumentMoniker": "LLMs\\LiskovSubstitution\\BadCode\\Bird.cs",
@@ -486,79 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Switch.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
-              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
-              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\Switch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:47:14.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IDevice.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
-              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
-              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\IDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:47:11.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Fan.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
-              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
-              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\Fan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:47:10.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LightBulb.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
-              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
-              "RelativeToolTip": "LLMs\\DependencyInversion\\GoodCode\\LightBulb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:45:46.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Switch.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\Switch.cs",
-              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\BadCode\\Switch.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\Switch.cs",
-              "RelativeToolTip": "LLMs\\DependencyInversion\\BadCode\\Switch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:43:13.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LightBulb.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
-              "RelativeDocumentMoniker": "LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
-              "RelativeToolTip": "LLMs\\DependencyInversion\\BadCode\\LightBulb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:42:34.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "BasicPrinter.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\InterfaceSegregation\\GoodCode\\BasicPrinter.cs",
               "RelativeDocumentMoniker": "LLMs\\InterfaceSegregation\\GoodCode\\BasicPrinter.cs",
@@ -570,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "IPrinter.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\InterfaceSegregation\\GoodCode\\IPrinter.cs",
               "RelativeDocumentMoniker": "LLMs\\InterfaceSegregation\\GoodCode\\IPrinter.cs",
@@ -582,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "BasicPrinter.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\InterfaceSegregation\\BadCode\\BasicPrinter.cs",
               "RelativeDocumentMoniker": "LLMs\\InterfaceSegregation\\BadCode\\BasicPrinter.cs",
@@ -594,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 50,
               "Title": "IMachine.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\InterfaceSegregation\\BadCode\\IMachine.cs",
               "RelativeDocumentMoniker": "LLMs\\InterfaceSegregation\\BadCode\\IMachine.cs",
@@ -606,103 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "VipDiscountCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
-              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
-              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\VipDiscountCalculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:21:04.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SuperVIPDiscount.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
-              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
-              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\SuperVIPDiscount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:21:04.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IReportService.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\IReportService.cs",
-              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\IReportService.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\IReportService.cs",
-              "RelativeToolTip": "LLMs\\SingleResponsibility\\IReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:16:49.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\ReportService.cs",
-              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\ReportService.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\ReportService.cs",
-              "RelativeToolTip": "LLMs\\SingleResponsibility\\ReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:14:33.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ReportGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
-              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
-              "RelativeToolTip": "LLMs\\SingleResponsibility\\GoodCode\\ReportGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:12:55.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ReportSaver.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
-              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
-              "RelativeToolTip": "LLMs\\SingleResponsibility\\GoodCode\\ReportSaver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:12:53.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ReportPrinter.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
-              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
-              "RelativeToolTip": "LLMs\\SingleResponsibility\\GoodCode\\ReportPrinter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:12:14.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ReportClass.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
-              "RelativeDocumentMoniker": "LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
-              "RelativeToolTip": "LLMs\\SingleResponsibility\\BadCode\\ReportClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:06:44.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "LLMs.csproj",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\LLMs.csproj",
               "RelativeDocumentMoniker": "LLMs\\LLMs.csproj",
@@ -714,43 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DiscountCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
-              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
-              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\DiscountCalculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:54:30.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "RegularDiscount.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
-              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
-              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\GoodCode\\RegularDiscount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:50:52.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IDiscountStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
-              "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
-              "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\IDiscountStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:48:52.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 32,
               "Title": "BadDiscountCalculator.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\OpenAndClosedPrinciple\\BadCode\\BadDiscountCalculator.cs",
               "RelativeDocumentMoniker": "LLMs\\OpenAndClosedPrinciple\\BadCode\\BadDiscountCalculator.cs",
@@ -758,11 +872,12 @@
               "RelativeToolTip": "LLMs\\OpenAndClosedPrinciple\\BadCode\\BadDiscountCalculator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:46:00.365Z"
+              "WhenOpened": "2025-02-07T11:46:00.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 41,
               "Title": "ChatHistory.cs",
               "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\ChatHistory.cs",
               "RelativeDocumentMoniker": "LLMs\\ChatHistory.cs",
@@ -770,21 +885,7 @@
               "RelativeToolTip": "LLMs\\ChatHistory.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T22:14:47.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Program.cs",
-              "RelativeDocumentMoniker": "LLMs\\Program.cs",
-              "ToolTip": "C:\\Users\\buari\\source\\repos\\LLMs\\LLMs\\Program.cs",
-              "RelativeToolTip": "LLMs\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T21:19:46.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T22:14:47.601Z"
             }
           ]
         }

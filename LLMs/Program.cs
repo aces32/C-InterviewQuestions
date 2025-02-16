@@ -15,6 +15,11 @@ using System.Diagnostics.Metrics;
 var builder = Host.CreateApplicationBuilder();
 ConstVsReadOnly constVsReadOnly = new ConstVsReadOnly("test");
 
+var num = 0;
+var eric = "eric test";
+num.ToString();
+eric.ToString(num);
+
 #region Events
 var video = new Video { Title = "video 1" };
 var videoEncoder = new VideoEncoder(); //publisher
